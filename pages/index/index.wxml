@@ -1,0 +1,17 @@
+<!--index.wxml-->
+<view class="container">
+<loading wx:if="{{loading}}">加载中</loading>
+<view wx:else>
+  <form bindsubmit="formSubmit" bindreset="formReset" report-submit="true">
+    <button formType="submit" class="prevent-button">点击我获得防脱发攻略</button>
+  </form>
+
+  <view class="img-wrapper">
+    <text>点击图片获得心理安慰：</text>
+    <image class="img-style" src="http://5b0988e595225.cdn.sohucs.com/images/20171228/f48d81583552451585ecc2a5fc4434d9.jpeg"></image>
+    <form bindsubmit="imageSubmit"  class="image-button-wrapper" report-submit="true">
+      <button class="image-button-style" formType="submit"></button>
+    </form>
+  </view>
+</view>
+</view>

@@ -1,0 +1,30 @@
+/* pages/message/index.wxss */
+.prevent-button {
+  margin:0 auto;
+  width:500rpx;
+  text-align:center;
+  margin-top: 20rpx;
+}
+.img-wrapper {
+  margin-top: 60rpx;
+  position: relative;
+  text-align: center;
+}
+
+.image-button-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.image-button-style{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0)
+}
+
+.image-button-style::after{
+  border: 0rpx!important;
+}
